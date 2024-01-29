@@ -1,9 +1,13 @@
+# Проект преназначен для отработки практических навыков работы с API
+
+Реализованы методы GET и POST
+
 ### Как запустить проект:
 
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/yandex-praktikum/kittygram.git
+git clone git@github.com:den-sad/kittygram.git
 ```
 
 ```
@@ -40,4 +44,15 @@ python3 manage.py migrate
 
 ```
 python3 manage.py runserver
+```
+### URL адрес API http://127.0.0.1:8000/cats/
+
+### пример POST запроса для добавления данных о питомце
+
+```
+    {
+        "name": "browny",
+        "color": "brown",
+        "birth_year": 2011
+    }
 ```
